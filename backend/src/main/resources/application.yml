@@ -1,0 +1,15 @@
+server:
+  port: 8080
+
+spring:
+  application:
+    name: dsar-portal
+
+logging:
+  level:
+    com.dsar: DEBUG
+    org.springframework.security: WARN
+
+dsar:
+  sla:
+    days: 30
